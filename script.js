@@ -5,71 +5,74 @@ const propertiesData = [
     {
         id: 1,
         title: "Serene Malibu Villa",
-        price: 6400000, // Updated to a TSh equivalent or realistic value
+        price: 6400000,
         location: "Dar es salaam, Kimara",
         bedrooms: 5,
         bathrooms: 6,
         type: "house",
-        imageUrl: "images/House 1.jpg",
+        imageUrl: "images/house1.jpg",
         description: "An architectural masterpiece boasting panoramic ocean vistas, private infinity pool, and cutting-edge home smart automation system."
     },
+
     {
         id: 3,
         title: "Mountain View Modern House",
-        price: 4200000, // Updated to a TSh equivalent or realistic value
-        location: "Mwanza,Nyegezi",
+        price: 4200000,
+        location: "Mwanza, Nyegezi",
         bedrooms: 4,
         bathrooms: 4,
         type: "house",
-        imageUrl: "images/House 2.jpg", 
+        imageUrl: "images/house2.jpg",
         description: "A gorgeous luxury mountain escape with structural floor heating, standalone hot tub deck, and instantaneous ski-in/ski-out capabilities."
     },
+
     {
         id: 2,
         title: "Victorious Luxury Apartment",
-        price: 2950000, // Updated to a TSh equivalent or realistic value
+        price: 2950000,
         location: "Dodoma, Makulu",
         bedrooms: 3,
         bathrooms: 3.5,
         type: "apartment",
-        imageUrl: "images/Apart 3.jpg",
-        description: "Exquisite high-rise living featuring floor-to-ceiling panoramic glass windows, concierge white-glove service, and steps from Central Park."
+        imageUrl: "images/apart3.jpg",
+        description: "Exquisite high-rise living featuring modern finishing and luxury facilities."
     },
-     {
+
+    {
         id: 6,
         title: "Eco-Friendly Suburban Apartment",
-        price: 950000,// Updated to a TSh equivalent or realistic value
+        price: 950000,
         location: "Dodoma, Chamwino",
         bedrooms: 4,
         bathrooms: 3,
         type: "apartment",
-        imageUrl: "images/Apart 4.jpg",
-        description: "Beautiful multi-generational energy efficient house with integrated residential solar panels, zero-waste greywater systems, and a massive backyard lawn."
+        imageUrl: "images/apart4.jpg",
+        description: "Beautiful energy efficient apartment with modern design and comfortable living space."
     },
-    
+
     {
         id: 4,
         title: "Urban Skyline Condo",
-        price: 850000,// Updated to a TSh equivalent or realistic value
+        price: 850000,
         location: "Mbeya, Tukuyu",
         bedrooms: 4,
         bathrooms: 2,
         type: "condo",
-        imageUrl: "images/Kondo 3.jpg",
-        description: "Immaculately designed loft living in downtown Chicago featuring exposed industrial brick, luxury quartz finishings, and building gym access."
+        imageUrl: "images/kondo3.jpg",
+        description: "Modern condo with elegant interior design and excellent location."
     },
+
     {
         id: 5,
         title: "Mlimani Waterfront Studio",
-        price: 1250000,// Updated to a TSh equivalent or realistic value
+        price: 1250000,
         location: "Dar es salaam, Mbezi",
         bedrooms: 2,
         bathrooms: 2.5,
         type: "condo",
-        imageUrl: "images/Kondo 4.jpg",
-        description: "Live the tropical luxury lifestyle with private dock access, expansive over-water patio, and curated mid-century modern design elements."
-    },
-   
+        imageUrl: "images/kondo4.jpg",
+        description: "Luxury waterfront studio with beautiful views and modern facilities."
+    }
 ];
 
 // ==========================================
