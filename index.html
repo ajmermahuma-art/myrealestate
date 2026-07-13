@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EliteDwellings | Premium Real Estate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Elite<span>Dwellings</span></a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#" class="nav-link active">Home</a>
+                <a href="#properties" class="nav-link">Properties</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section & Real-Time Filter Controls -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1><B><i>Start Your Home Journey Today</i></B></h1>
+            <p>Discover handpicked premium properties tailored perfectly to your lifestyle.</p>
+        </div>
+        
+        <!-- Interactive Search Controls -->
+        <div class="filter-container">
+            <div class="filter-group">
+                <label for="searchLocation">Location</label>
+                <input type="text" id="searchLocation" placeholder="e.g., Malibu, Aspen...">
+            </div>
+            <div class="filter-group">
+                <label for="filterType">Property Type</label>
+                <select id="filterType">
+                    <option value="all">All Types</option>
+                    <option value="apartment">Apartment</option>
+                    <option value="house">House</option>
+                    <option value="condo">Condo</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="filterPrice">Max Price</label>
+                <select id="filterPrice">
+                    <option value="all">Any Price</option>
+                    <option value="1000000">Under Tsh 1,000,000</option>
+                    <option value="3000000">Under Tsh 3,000,000</option>
+                    <option value="6000000">Under  Tsh 6,000,000</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dynamic Properties Grid -->
+    <main class="container" id="properties">
+        <h2 class="section-title">Featured Properties</h2>
+        <div class="properties-grid" id="propertiesGrid">
+            <!-- Dynamically populated via JavaScript -->
+        </div>
+        <div id="noResults" class="no-results hidden">No properties match your current search criteria.</div>
+    </main>
+
+    <!-- Contact & Inquiry Form -->
+    <section class="contact-section" id="contact">
+        <div class="form-container">
+            <h2>Inquire About a Property</h2>
+            <p>Fill out the form below, and our luxury real estate specialists will reach out within 24 hours.</p>
+            
+            <form id="inquiryForm" novalidate>
+                <div class="form-group">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" placeholder="John Doe">
+                    <span class="error-message" id="nameError"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="johndoe@example.com">
+                    <span class="error-message" id="emailError"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" placeholder="+255000000000">
+                    <span class="error-message" id="phoneError"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="4" placeholder="I'm interested in learning more about..."></textarea>
+                    <span class="error-message" id="messageError"></span>
+                </div>
+
+                <button type="submit" class="btn-submit">Submit Inquiry</button>
+                <div id="formSuccess" class="success-message hidden">Thank you! Your inquiry has been submitted successfully.</div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Property Detail Modal -->
+    <div class="modal" id="propertyModal" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div id="modalBody">
+                <!-- Dynamically populated via JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2026 EliteDwellings Real Estate. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
