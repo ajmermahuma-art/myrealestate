@@ -10,7 +10,7 @@ const propertiesData = [
         bedrooms: 5,
         bathrooms: 6,
         type: "house",
-        imageUrl: "images/house 3.jpg",
+        imageUrl: "images/House 1.jpg",
         description: "An architectural masterpiece boasting panoramic ocean vistas, private infinity pool, and cutting-edge home smart automation system."
     },
     {
@@ -21,7 +21,7 @@ const propertiesData = [
         bedrooms: 4,
         bathrooms: 4,
         type: "house",
-        imageUrl: "images/house 4.jpg",
+        imageUrl: "images/House 2.jpg", 
         description: "A gorgeous luxury mountain escape with structural floor heating, standalone hot tub deck, and instantaneous ski-in/ski-out capabilities."
     },
     {
